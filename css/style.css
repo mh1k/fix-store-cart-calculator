@@ -1,18 +1,20 @@
 body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
+  
 }
 /* shop name */
 #store-header h1{
   margin-top: 20px;
   margin-bottom: 30px;
   font-size: 48px;
-  color: rgb(33, 33, 100);
+  color: rgb(28, 152, 235);
 
 }
 .hulk{
-  color: rgb(38, 77, 38);
+  color: rgb(35, 112, 35);
 }
+
 /* search area */
 /* ########### */
 #search-field{
@@ -67,9 +69,10 @@ body {
   /* border: 1px solid black; */
   text-align: center;
   width: 100%;
-  margin: auto;
+  margin-left: 3px !important;
   align-items: center;
   justify-content: center;
+
 }
 .single-product p{
   margin-bottom: 3px;
@@ -78,6 +81,7 @@ body {
   background-color: rgb(243, 241, 239);
   padding: 10px;
   transition: 0.6s;
+  height: 495PX;
 }
 .single-product:hover {
   box-shadow: 4px 4px 7px gray;
@@ -87,6 +91,12 @@ body {
 .product-image {
   width: 150px;
   height: 150px;
+}
+.reviews{
+  font-size: 18px;
+}
+.price-color{
+  color: rgb(28, 152, 235);
 }
 .cart {
   width: 350px;
